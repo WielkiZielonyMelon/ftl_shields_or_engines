@@ -1,8 +1,8 @@
 class Shields(object):
     SHIELDS_COST = [125, 100,
-                   20, 30,
-                   40, 60,
-                   80, 100]
+                    20, 30,
+                    40, 60,
+                    80, 100]
 
     SHIELDS_MAX_LEVEL = 8
 
@@ -33,12 +33,12 @@ class Engines(object):
     # it means, that to upgrade from level 2 to 3,
     # one needs 15 scrap
     ENGINES_COST = ["NOT POSSIBLE TO UPGRADES ENGINES FROM 0",
-            10, 15, 30, 40, 60,
-            80, 120]
+                    10, 15, 30, 40, 60,
+                    80, 120]
 
     ENGINES_EVASION = [0,
-            5, 10, 15, 20, 25,
-            28, 31, 35]
+                       5, 10, 15, 20, 25,
+                       28, 31, 35]
 
     ENGINES_MAX_LEVEL = 8
 
@@ -58,11 +58,11 @@ class Engines(object):
 
 class Power(object):
     POWER_COST = ["NOT POSSIBLE TO UPGRADE POWER FROM 0",
-            30, 30, 30, 30, 30,
-            20, 20, 20, 20, 20,
-            25, 25, 25, 25, 25,
-            30, 30, 30, 30, 30,
-            35, 35, 35, 35, 35]
+                  30, 30, 30, 30, 30,
+                  20, 20, 20, 20, 20,
+                  25, 25, 25, 25, 25,
+                  30, 30, 30, 30, 30,
+                  35, 35, 35, 35, 35]
 
     def __init__(self, power_level, free_power):
         self.power_level = power_level
